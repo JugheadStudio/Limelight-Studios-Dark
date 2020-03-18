@@ -17,7 +17,7 @@ Its not perfect yet, it still needs a few tweeks here and there.
 * C#
 
 <p align="center">
-  <img alt="preview" src="https://raw.githubusercontent.com/Limelight-Studios/Limelight-Studios-Dark/master/preview.png" width="90%">
+  <img alt="preview" src="https://raw.githubusercontent.com/Limelight-Studios/Limelight-Studios-Dark/master/preview.png" width="100%">
 </p>
 
 ## Installation
