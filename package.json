@@ -1,10 +1,10 @@
 {
     "name": "limelight-studios-dark",
     "author": "Ruan Jordaan",
-    "publisher": "Limelight Studios",
+    "publisher": "limelightstudios",
     "displayName": "Limelight Studios Dark",
-    "version": "1.0.0",
-    "description": "A dark theme made for C# Visual Studio Code",
+    "version": "1.0.2",
+    "description": "A dark theme made Visual Studio Code, currently supports HTML, CSS, Javascript and C#",
     "license": "MIT",
     "icon": "logo.png",
     "engines": {
@@ -27,11 +27,11 @@
         }
       ]
     },
+    "homepage": "https://limelight-studios.com/",
     "repository": {
       "type": "git",
       "url": "https://github.com/Limelight-Studios/Limelight-Dark-Theme.git"
     },
-    "homepage": "https://limelight-studios.com/",
     "bugs": {
       "url": "https://github.com/Limelight-Studios/Limelight-Studios-Dark/issues"
     }
