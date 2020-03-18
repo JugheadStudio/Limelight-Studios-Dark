@@ -627,7 +627,9 @@
 		},
 		{
 			"scope": [
-				"entity.other.attribute-name.html"
+				"entity.other.attribute-name.html",
+				"constant.character.entity.numeric.decimal.html",
+				"string.quoted.double.html"
 			],
 			"settings": {
 				"foreground": "#F09483E6"
@@ -754,6 +756,56 @@
 			],
 			"settings": {
 				"foreground": "#909D63"
+			}
+		},
+
+		// ========================
+		// JSON
+		// ========================
+		{
+			"scope": [
+				"support.type.property-name.json",
+			],
+			"settings": {
+				"foreground": "#5CADBF"
+			}
+		},
+		{
+			"scope": [
+				"string.quoted.double.json",
+			],
+			"settings": {
+				"foreground": "#B8B8B8"
+			}
+		},
+		{
+			"scope": [
+				"constant.language.json",
+			],
+			"settings": {
+				"foreground": "#FAC29AE6"
+			}
+		},
+		{
+			"scope": [
+				"punctuation.separator.dictionary.pair.json",
+				"punctuation.definition.array.begin.json",
+				"punctuation.definition.array.end.json",
+				"punctuation.definition.dictionary.begin.json",
+				"punctuation.definition.dictionary.end.json",
+				"punctuation.separator.dictionary.key-value.json",
+				"punctuation.separator.array.json.comments"
+			],
+			"settings": {
+				"foreground": "#6A8799"
+			}
+		},
+		{
+			"scope": [
+				"constant.language.json",
+			],
+			"settings": {
+				"foreground": "#FAC29AE6"
 			}
 		},
 	]
