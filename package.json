@@ -4,7 +4,7 @@
     "publisher": "limelightstudios",
     "displayName": "Limelight Studios Dark",
     "version": "1.0.2",
-    "description": "A dark theme made Visual Studio Code, currently supports HTML, CSS, Javascript and C#",
+    "description": "A dark theme made for Visual Studio Code, currently supports HTML, CSS, Javascript and C#",
     "license": "MIT",
     "icon": "logo.png",
     "engines": {
