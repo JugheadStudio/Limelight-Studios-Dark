@@ -24,8 +24,8 @@ Its not perfect yet, it still needs a few tweeks here and there.
 1. Open the **Extensions** sidebar in VS Code
 2. Search for `Limelight Studios Dark`
 3. Click **Install**
-4. Open the **Command Palette** with `Ctrl+Shift+P` or `⇧⌘P`
-5. Select **Preferences: Color Theme** and choose Limelight Studios Dark.
+4. Open the **Command Palette** with `Ctrl + Shift + P` or `Shift + Command + P`
+5. Select **Preferences: Color Theme** and choose **Limelight Studios Dark**.
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.

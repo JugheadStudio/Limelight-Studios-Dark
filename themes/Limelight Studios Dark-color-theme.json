@@ -660,6 +660,14 @@
 				"foreground": "#686868"
 			}
 		},
+		{
+			"scope": [
+				"source.css"
+			],
+			"settings": {
+				"foreground": "#909D63"
+			}
+		},
 
 		// ========================
 		// CSS
