@@ -364,7 +364,14 @@
 				"keyword.other.using.cs",
 				"keyword.other.namespace.cs",
 				"storage.modifier.cs",
-				"keyword.other.class.cs"
+				"keyword.other.class.cs",
+				"constant.language.null.cs",
+				"keyword.other.new.cs",
+				"keyword.other.this.cs",
+				"variable.other.object.cs",
+				"entity.name.variable.field.cs",
+				"variable.other.readwrite.cs",
+				"entity.name.type.enum.cs",
 			],
 			"settings": {
 				"foreground": "#B877DBE6"
@@ -381,6 +388,7 @@
 		{
 			"scope": [
 				"entity.name.type.class.cs",
+				"entity.name.variable.enum-member.cs"
 			],
 			"settings": {
 				"foreground": "#FAC29AE6"
@@ -389,6 +397,7 @@
 		{
 			"scope": [
 				"storage.type.cs",
+				"entity.name.type.interface.cs"
 			],
 			"settings": {
 				"foreground": "#e4b992"
@@ -415,6 +424,7 @@
 				"keyword.operator.assignment.cs",
 				"keyword.operator.arithmetic.cs",
 				"punctuation.separator.comma.cs",
+				"keyword.operator.assignment.compound.cs"
 			],
 			"settings": {
 				"foreground": "#7EAAC7"
@@ -426,7 +436,10 @@
 				"constant.language.boolean.true.cs",
 				"constant.language.boolean.false.cs",
 				"keyword.control.flow.return.cs",
-				"keyword.other.var.cs"
+				"keyword.other.var.cs",
+				"keyword.other.interface.cs",
+				"keyword.other.enum.cs",
+				"keyword.other.typeof.cs"
 			],
 			"settings": {
 				"foreground": "#5CADBF"
@@ -443,10 +456,9 @@
 		},
 		{
 			"scope": [
-				"entity.name.variable.field.cs",
 				"entity.name.variable.local.cs",
-				"variable.other.readwrite.cs",
-				"variable.other.object.property.cs"
+				"entity.name.variable.parameter.cs",
+				"variable.other.object.property.cs",
 			],
 			"settings": {
 				"foreground": "#b8b8b8"
@@ -454,8 +466,6 @@
 		},
 		{
 			"scope": [
-				"variable.other.object.cs",
-				"keyword.other.new.cs"
 			],
 			"settings": {
 				"foreground": "#bca3ff"
@@ -490,7 +500,13 @@
 				"keyword.control.conditional.if.cs",
 				"keyword.control.conditional.else.cs",
 				"keyword.control.loop.foreach.cs",
-				"keyword.control.loop.in.cs"
+				"keyword.control.loop.in.cs",
+				"keyword.control.loop.while.cs",
+				"keyword.operator.comparison.cs",
+				"keyword.control.flow.yield.cs",
+				"punctuation.accessor.cs",
+				"keyword.operator.logical.cs",
+				"keyword.operator.relational.cs"
 			],
 			"settings": {
 				"foreground": "#6A8799"
@@ -814,6 +830,106 @@
 			],
 			"settings": {
 				"foreground": "#FAC29AE6"
+			}
+		},
+
+		// ========================
+		// Python
+		// ========================
+		{
+			"scope": [
+				"meta.function-call.generic.python",
+				"entity.name.function.python"
+			],
+			"settings": {
+				"foreground": "#ff88a2"
+			}
+		},
+		{
+			"scope": [
+				"keyword.control.flow.python",
+				"keyword.control.import.python"
+			],
+			"settings": {
+				"foreground": "#B877DBE6"
+			}
+		},
+		{
+			"scope": [
+				"storage.type.function.python",
+				"meta.item-access.python",
+				"punctuation.separator.colon.python",
+				"punctuation.definition.arguments.begin.python",
+				"punctuation.definition.arguments.end.python",
+				"punctuation.separator.period.python",
+				"punctuation.definition.list.begin.python",
+				"punctuation.definition.list.end.python",
+				"punctuation.definition.parameters.begin.python",
+				"punctuation.definition.parameters.end.python",
+			],
+			"settings": {
+				"foreground": "#6A8799"
+			}
+		},
+		{
+			"scope": [
+				"keyword.operator.comparison.python",
+				"keyword.operator.assignment.python"
+			],
+			"settings": {
+				"foreground": "#5CADBF"
+			}
+		},
+		{
+			"scope": [
+				"storage.type.class.python",
+				"keyword.operator.logical.python",
+				"meta.item-access.arguments.python",
+			],
+			"settings": {
+				"foreground": "#FAC29AE6"
+			}
+		},
+		{
+			"scope": [
+				"entity.name.type.class.python"
+			],
+			"settings": {
+				"foreground": "#F09483E6"
+			}
+		},
+		{
+			"scope": [
+				"support.function.builtin.python"
+			],
+			"settings": {
+				"foreground": "#5CADBF"
+			}
+		},
+		{
+			"scope": [
+				"string.quoted.single.python",
+				"string.quoted.double.python"
+			],
+			"settings": {
+				"foreground": "#909D63"
+			}
+		},
+		{
+			"scope": [
+				"support.type.python",
+				"punctuation.definition.decorator.python"
+			],
+			"settings": {
+				"foreground": "#909D63"
+			}
+		},
+		{
+			"scope": [
+				"comment.line.number-sign.python",
+			],
+			"settings": {
+				"foreground": "#686868"
 			}
 		},
 	]
