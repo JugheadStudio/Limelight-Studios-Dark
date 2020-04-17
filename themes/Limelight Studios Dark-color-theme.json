@@ -368,10 +368,10 @@
 				"constant.language.null.cs",
 				"keyword.other.new.cs",
 				"keyword.other.this.cs",
-				"variable.other.object.cs",
 				"entity.name.variable.field.cs",
 				"variable.other.readwrite.cs",
 				"entity.name.type.enum.cs",
+				"entity.name.type.struct.cs",
 			],
 			"settings": {
 				"foreground": "#B877DBE6"
@@ -406,6 +406,7 @@
 		{
 			"scope": [
 				"entity.name.function.cs",
+				"entity.name.variable.event.cs"
 			],
 			"settings": {
 				"foreground": "#ff88a2"
@@ -419,19 +420,38 @@
 				"punctuation.squarebracket.close.cs",
 				"punctuation.parenthesis.open.cs",
 				"punctuation.parenthesis.close.cs",
+				"punctuation.definition.typeparameters.begin.cs",
+				"punctuation.definition.typeparameters.end.cs",
 				"punctuation.terminator.statement.cs",
 				"punctuation.separator.colon.cs",
-				"keyword.operator.assignment.cs",
-				"keyword.operator.arithmetic.cs",
 				"punctuation.separator.comma.cs",
-				"keyword.operator.assignment.compound.cs"
+				"entity.name.variable.property.cs",
+				"keyword.control.flow.break.cs",
+				"keyword.operator.logical.cs",
+				"keyword.operator.relational.cs",
+				"keyword.operator.increment.cs",
+				"keyword.operator.decrement.cs",
+				"keyword.operator.assignment.cs",
+				"keyword.operator.arrow.cs",
+				"keyword.operator.arithmetic.cs"
 			],
 			"settings": {
-				"foreground": "#7EAAC7"
+				"foreground": "#6A8799"
 			}
 		},
 		{
 			"scope": [
+				"keyword.control.conditional.if.cs",
+				"keyword.control.conditional.else.cs",
+				"keyword.control.loop.foreach.cs",
+				"keyword.control.loop.in.cs",
+				"keyword.control.loop.while.cs",
+				"keyword.control.loop.for.cs",
+				"keyword.control.loop.do.cs",
+				"keyword.operator.comparison.cs",
+				"keyword.control.flow.yield.cs",
+				"punctuation.accessor.cs",
+				"keyword.control.switch.cs",
 				"keyword.type.cs",
 				"constant.language.boolean.true.cs",
 				"constant.language.boolean.false.cs",
@@ -439,7 +459,12 @@
 				"keyword.other.var.cs",
 				"keyword.other.interface.cs",
 				"keyword.other.enum.cs",
-				"keyword.other.typeof.cs"
+				"keyword.other.typeof.cs",
+				"keyword.other.struct.cs",
+				"keyword.other.event.cs",
+				"keyword.control.case.cs",
+				"keyword.control.default.cs",
+				"keyword.operator.assignment.compound.cs",
 			],
 			"settings": {
 				"foreground": "#5CADBF"
@@ -466,6 +491,7 @@
 		},
 		{
 			"scope": [
+				"variable.other.object.cs",
 			],
 			"settings": {
 				"foreground": "#bca3ff"
@@ -489,27 +515,15 @@
 		},
 		{
 			"scope": [
-				"comment.line.double-slash.cs"
+				"comment.line.double-slash.cs",
+				"punctuation.definition.comment.cs",
+				"comment.block.cs",
+				"punctuation.definition.tag.cs",
+				"entity.name.tag.localname.cs",
+				"comment.block.documentation.cs"
 			],
 			"settings": {
-				"foreground": "#686868"
-			}
-		},
-		{
-			"scope": [
-				"keyword.control.conditional.if.cs",
-				"keyword.control.conditional.else.cs",
-				"keyword.control.loop.foreach.cs",
-				"keyword.control.loop.in.cs",
-				"keyword.control.loop.while.cs",
-				"keyword.operator.comparison.cs",
-				"keyword.control.flow.yield.cs",
-				"punctuation.accessor.cs",
-				"keyword.operator.logical.cs",
-				"keyword.operator.relational.cs"
-			],
-			"settings": {
-				"foreground": "#6A8799"
+				"foreground": "#525252"
 			}
 		},
 
